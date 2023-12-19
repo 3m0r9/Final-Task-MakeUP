@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.D121211105.movie.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -16,10 +16,10 @@
         android:theme="@style/Theme.Makeup"
         tools:targetApi="31">
         <activity
-            android:name=".ui.activities.detail.DetailActivity"
+            android:name="com.D121211105.movie.ui.activities.detail.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.main.MainActivity"
+            android:name="com.D121211105.movie.ui.activities.main.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Makeup">
@@ -30,6 +30,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>
